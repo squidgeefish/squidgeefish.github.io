@@ -1,2 +1,6 @@
 title: Squidgeefish
 remote_theme: squidgeefish/midnight
+
+collections:
+    projects:
+        output: true

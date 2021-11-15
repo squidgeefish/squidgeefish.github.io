@@ -1,13 +1,3 @@
 # Squidgeefish
 
-This is a website!
-
-```c
-#include <stdio.h>
-
-int main(int argc, char** argv)
-{
-    printf("Hello, world!\n");
-    exit 0;
-}
-```
+Electronic/mechanical/software-related shenanigans of questionable advisability
