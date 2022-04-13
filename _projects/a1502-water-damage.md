@@ -1,15 +1,12 @@
 ---
-layout: default
+layout: project
 title: A1502 Water Damage
-blurb: Diagnosing and repairing a water-damaged A1502 motherboard
+description: Diagnosing and repairing a water-damaged A1502 motherboard
 slug: a1502-water-damage
+image: /assets/a1502-water-damage/banner.jpg
 date: 2022-03-19
 
 ---
-
-# {{page.title}}
-
-![A royal mess of MacBook rework on my workbench](/assets/{{page.slug}}/banner.jpg)
 
 ## Background
 

@@ -1,16 +1,12 @@
 ---
-layout: default
+layout: project
 title: A1175 Battery Hacking
-blurb: Talking to the bq20z80 smart battery management IC from a MacBook Pro battery
+description: Talking to the bq20z80 smart battery management IC from a MacBook Pro battery
 slug: a1175-battery-hacking
+image: /assets/a1175-battery-hacking/happy-battery.jpg
 date: 2021-11-14
 
 ---
-
-
-# A1175 Battery Hacking
-
-![A1175 battery with lights on and programming apparatus](/assets/{{page.slug}}/happy-battery.jpg)
 
 ## Background
 With the release of Intel-based MacBooks in 2006, Apple started using "smart battery monitor" chips that track current in and out of the battery to provide more realistic battery life estimations. However, this means that, unlike the PowerPC laptops, failed battery cells cannot simply be replaced: disconnecting cells triggers a permanent failure flag in the battery monitor, disabling the battery. I hate it when that happens...

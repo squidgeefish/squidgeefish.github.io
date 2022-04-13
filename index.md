@@ -10,7 +10,7 @@ Electronic/mechanical/software-related shenanigans of questionable advisability
     <img style="float:left; height:70px; margin-right:10px" src="/assets/{{p.slug}}/thumbnail.jpg"/>
     <div>
         <h3 style="margin-bottom:5px"><a href="{{p.id}}">{{p.title}}</a></h3>
-        {{p.blurb}} <br>
+        {{p.description}} <br>
         <i>{{p.date | date : "%B %Y"}}</i>
     </div>
 </div>
