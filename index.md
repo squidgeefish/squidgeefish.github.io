@@ -5,7 +5,7 @@ Electronic/mechanical/software-related shenanigans of questionable advisability
 ## Recent Projects
 
 {% assign sorted = site.projects | reverse %}
-{% for p in sorted limit:2 %}
+{% for p in sorted limit:5 %}
 <div style="clear:both; margin-bottom:15px">
     <img style="float:left; height:70px; margin-right:10px" src="/assets/{{p.slug}}/thumbnail.jpg"/>
     <div>
