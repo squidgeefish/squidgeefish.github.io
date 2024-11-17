@@ -1,6 +1,6 @@
-# Squidgeefish
+# {{site.title}}
 
-Electronic/mechanical/software-related shenanigans of questionable advisability
+{{site.description}}
 
 ## Recent Projects
 
