@@ -221,7 +221,7 @@ While some might just wait for shipping on a nice string of APA102s, that kind o
 
 ![addressable LEDs](/assets/{{page.slug}}/lights-dark-mode.jpg)
 
-Astute readers might notices that the LED corresponding to the "left eye" appears a bit greener than its companion at the end of the string. This isn't a problem with the decoding; rather, it's an issue with the actual red LED phosphor in that WS2812 being just a bit dimmer than any of the others. I discovered this after wiring everything up; it can probably be chalked up to over-heating by the previous owner and arguably should be replaced. I think it adds character...
+Astute readers might notice that the LED corresponding to the "left eye" appears a bit greener than its companion at the end of the string. This isn't a problem with the decoding; rather, it's an issue with the actual red LED phosphor in that WS2812 being just a bit dimmer than any of the others. I discovered this after wiring everything up; it can probably be chalked up to over-heating by the previous owner and arguably should be replaced. I think it adds character...
 
 ## Pictures
 
