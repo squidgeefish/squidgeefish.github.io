@@ -1,4 +1,4 @@
-# {{site.title}}
+# Squidgeefish
 
 {{site.description}}
 
