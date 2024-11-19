@@ -4,7 +4,7 @@ title: Fibonacci128 SAO
 description: Creating a 1-inch diameter version of the Fibonacci128 to run off a conference badge
 slug: fibonacci128-sao
 image: /assets/fibonacci128-sao/banner.jpg
-date: 2024-11-16
+date: 2024-11-19
 
 ---
 
