@@ -21,7 +21,7 @@ Here are a few badges from a friend's collection (from left to right: the [FLORI
 
 ![four badges of varying complexity](/assets/{{page.slug}}/badges.jpg)
 
-At some point, people decided that the badges were looking a bit lonely and needed their own badges, which lead to the creation of the [SAO "standard,"](https://hackaday.io/project/52950-shitty-add-ons/log/159806-introducing-the-shitty-add-on-v169bis-standard) as [chronicled by Brian Benchoff himself](https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard/). This standard specifies the usage of a 2x3 keyed box header with 3.3V power, as well as an I2C interface and two GPIO pins.
+At some point, people decided that the badges were looking a bit lonely and needed their own badges, which led to the creation of the SAO (**S**h\*tty/**S**imple/**S**tandardized **A**dd-**O**n) ["standard,"](https://hackaday.io/project/52950-shitty-add-ons/log/159806-introducing-the-shitty-add-on-v169bis-standard) as [chronicled by Brian Benchoff himself](https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard/). This standard specifies the usage of a 2x3 keyed box header with 3.3V power, as well as an I2C interface and two GPIO pins.
 
 These SAOs have tended to remain relatively simple and blinky, providing an excellent starting point for anybody wishing to dip their toes into PCB design, electronic art, or small-run production headaches. However, SAO complexity is starting to increase as well, with the focus of this year's Hackaday Supercon badge being SAO interconnectivity over I2C.
 
@@ -78,7 +78,7 @@ Instead, I chose the incomprehensibly more capable [STM8S001J3](https://www.st.c
 
 In hindsight, that STM32 or a SOIC-8 [CH32V003](https://www.wch-ic.com/products/CH32V003.html)  (2kB RAM, 16kB flash, 48MHz) offer a lot more flexibility (and vastly lower cost in the case of the CH32V003). These could have allowed for much fancier animations, although the ones that I did implement are by no means pushing the capabilities of the STM8.  
 
-The choice of the STM8S001J3 as my microcontroller very quickly determined my pin assignments - pins 5 and 6 (`PB5` and `PB4`) are connected to a hardware I2C peripheral as `I2C_SDA` and `I2C_SCL`, respectively. Pin 8 is used for reprogramming the microcontroller via the "Single Wire Interface Module" (SWIM) protocol, I chose to use Pin 7 (`PC5`) to drive the LED array, leaving Pin 1 (`PD6`) free for shenanigans.
+The choice of the STM8S001J3 as my microcontroller very quickly determined my pin assignments - pins 5 and 6 (`PB5` and `PB4`) are connected to a hardware I2C peripheral as `I2C_SDA` and `I2C_SCL`, respectively. Pin 8 is used for reprogramming the microcontroller via the "Single Wire Interface Module" (SWIM) protocol, and I chose to use Pin 7 (`PC5`) to drive the LED array, leaving Pin 1 (`PD6`) free for shenanigans.
 
 ![SOIC-8 detail](/assets/{{page.slug}}/stm8s-routing.jpg)
 
